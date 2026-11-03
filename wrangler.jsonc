@@ -1,5 +1,5 @@
 {
-"$schema": "node_modules/wrangler/config-schema.json",
+"$schema": "./node_modules/wrangler/config-schema.json",
 "name": "admin-template",
 "main": ".open-next/worker.js",
 "compatibility_date": "2025-10-08",
@@ -10,25 +10,15 @@
 "enabled": true
 },
 "upload_source_maps": true,
-
 "assets": {
 "directory": ".open-next/assets",
 "binding": "ASSETS"
 },
-
 "d1_databases": [
 {
 "binding": "DB",
 "database_name": "admin-db",
 "database_id": "3009feae-2321-421c-97e8-181886710aa0"
-}
-],
-
-"workflows": [
-{
-"name": "flytripvisa-customer-workflow",
-"binding": "CUSTOMER_WORKFLOW",
-"class_name": "CustomerWorkflow"
 }
 ]
 }
