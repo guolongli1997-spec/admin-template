@@ -3,9 +3,9 @@ import packageJson from "../../package.json";
 const currentYear = new Date().getFullYear();
 
 export const PROJECT_CONFIG = {
-  name: "Next.js Colocation Template - Scalable Folder Structure Guide",
+  name: "FlyTripVisa",
   description:
-    "A modular and practical Next.js template demonstrating a colocated, feature-first folder structure powered by the App Router and TypeScript.",
+    "FlyTripVisa Admin Control Center. Manage visa services, travel applications, customers, payments, AI services and global business operations from one secure workspace.",
   version: packageJson.version,
-  copyright: `© ${currentYear}, All Rights Reserved.`,
+  copyright: `© ${currentYear} FlyTripVisa. All Rights Reserved.`,
 };
