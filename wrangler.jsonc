@@ -1,5 +1,5 @@
 {
-  "name": "saas-admin-template",
+  "name": "admin-template",
   "main": "./dist/index.js",
   "assets": {
     "directory": "./dist"
